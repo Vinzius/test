@@ -1,6 +1,6 @@
 {
   "name": "@npm-test-2022-07/repo1",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0-beta.1",
   "license": "Apache-2.0",
   "description": "Repo Test.",
   "main": "dist/index.cjs",
