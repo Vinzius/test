@@ -1,0 +1,23 @@
+{
+  "name": "@npm-test-2022-07/repo1",
+  "version": "0.0.1-beta.0",
+  "license": "Apache-2.0",
+  "description": "Repo Test.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "packages/clients"
+  },
+  "engines": {
+    "node": ">=14.13"
+  },
+  "type": "module"
+}
