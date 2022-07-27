@@ -10,10 +10,10 @@
     "dist"
   ],
   "scripts": {
-    "version": "echo \"hello world 2\""
+    "version": "./scripts/update-version.sh"
   },
   "lifecycle": {
-    "version": "echo \"hello from package\" >> output.txt"
+    "version": "./scripts/update-version.sh"
   },
   "publishConfig": {
     "access": "public"

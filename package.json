@@ -17,10 +17,10 @@
     "prepare": "husky install",
     "test:coverage": "pnpm run test --coverage",
     "test": "jest",
-    "version": "echo \"hello world\""
+    "version": "./packages/clients/scripts/update-version.sh"
   },
   "lifecycle": {
-    "version": "echo \"hello from root\" >> ./packages/clients/output.txt"
+    "version": "./packages/clients/scripts/update-version.sh"
   },
   "lint-staged": {
     "*.ts": [

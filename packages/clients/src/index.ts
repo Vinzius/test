@@ -1,1 +1,1 @@
-export const random = 6
+export const random = 7
