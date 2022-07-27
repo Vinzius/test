@@ -16,11 +16,7 @@
     "lint": "eslint --cache --ext ts .",
     "prepare": "husky install",
     "test:coverage": "pnpm run test --coverage",
-    "test": "jest",
-    "version": "./packages/clients/scripts/update-version.sh"
-  },
-  "lifecycle": {
-    "version": "./packages/clients/scripts/update-version.sh"
+    "test": "jest"
   },
   "lint-staged": {
     "*.ts": [

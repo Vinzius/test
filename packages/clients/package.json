@@ -10,10 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "version": "./scripts/update-version.sh"
-  },
-  "lifecycle": {
-    "version": "./scripts/update-version.sh"
+    "version": "./scripts/update-constants-file.sh"
   },
   "publishConfig": {
     "access": "public"
