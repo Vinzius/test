@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.0-beta.3](https://github.com/Vinzius/test/compare/@npm-test-2022-07/repo1@0.1.0-beta.2...@npm-test-2022-07/repo1@0.1.0-beta.3) (2022-07-27)
+
+
+### Features
+
+* try by writing in a file ([071911c](https://github.com/Vinzius/test/commit/071911c333b03496b9fc7303ad0f6b2b6edf43d4))
+
+
+
 ## [0.1.0-beta.2](https://github.com/Vinzius/test/compare/@npm-test-2022-07/repo1@0.1.0-beta.1...@npm-test-2022-07/repo1@0.1.0-beta.2) (2022-07-27)
 
 
