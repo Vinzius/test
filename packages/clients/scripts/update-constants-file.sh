@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
+# set -e
 
 echo "Updating version in constants.ts"
 
@@ -24,7 +24,7 @@ NEW_FILE=$( cat "${CONSTANTS_PATH}" | sed -e "s/${OLD_LINE_EXP}/${NEW_LINE}/" )
 if [[ "$NEW_FILE" != *"$NEW_LINE"* ]]; then
   echo "New file content doesn't contain expected version:"
   echo "${NEW_FILE}"
-  exit
+  exit 1
 fi
 
 # Copy content to file
