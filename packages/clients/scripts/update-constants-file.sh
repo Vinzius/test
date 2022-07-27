@@ -11,7 +11,10 @@ CONSTANTS_PATH="${SCRIPT_DIR}/../src/constants.ts"
 # Search for the new version
 NEW_VERSION=""
 # $(node -e "console.log(require('${PACKAGE_PATH}').version);")
-[ -z "${NEW_VERSION}" ] && echo "New version cannot be found, abording" && exit 1
+if [ -z "${NEW_VERSION}" ]; then
+  echo "New version cannot be found, abording"
+  exit 1
+fi
 echo "Found version: ${NEW_VERSION}"
 
 # Replace the old version with the new one
