@@ -9,6 +9,9 @@
   "files": [
     "dist"
   ],
+  "lifecycle": {
+    "version": "echo \"hello from package\" >> output.txt"
+  },
   "publishConfig": {
     "access": "public"
   },

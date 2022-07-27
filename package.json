@@ -18,6 +18,9 @@
     "test:coverage": "pnpm run test --coverage",
     "test": "jest"
   },
+  "lifecycle": {
+    "version": "echo \"hello from root\" >> ./packages/clients/output.txt"
+  },
   "lint-staged": {
     "*.ts": [
       "prettier --write",
