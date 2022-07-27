@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.0-beta.4](https://github.com/Vinzius/test/compare/@npm-test-2022-07/repo1@0.1.0-beta.3...@npm-test-2022-07/repo1@0.1.0-beta.4) (2022-07-27)
+
+
+### Features
+
+* try with package lifecycle ([4395cad](https://github.com/Vinzius/test/commit/4395cad33139f47b9c12c554f1c615dad08a1a62))
+
+
+
 ## [0.1.0-beta.3](https://github.com/Vinzius/test/compare/@npm-test-2022-07/repo1@0.1.0-beta.2...@npm-test-2022-07/repo1@0.1.0-beta.3) (2022-07-27)
 
 
