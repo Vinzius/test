@@ -1,5 +1,5 @@
 {
     "lifecycle": {
-        "version": "echo \"hello world\""
+        "version": "echo \"hello from package\" >> output.txt"
     }
 }

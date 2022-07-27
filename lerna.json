@@ -3,6 +3,9 @@
   "useWorkspaces": true,
   "npmClient": "pnpm",
   "version": "independent",
+  "lifecycle": {
+    "version": "echo \"hello from root\" >> ./packages/clients/output.txt"
+  },
   "command": {
     "publish": {
       "conventionalPrerelease": true,
