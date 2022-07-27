@@ -9,6 +9,9 @@
   "files": [
     "dist"
   ],
+  "scripts": {
+    "version": "echo \"hello world 2\""
+  },
   "lifecycle": {
     "version": "echo \"hello from package\" >> output.txt"
   },

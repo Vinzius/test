@@ -16,7 +16,8 @@
     "lint": "eslint --cache --ext ts .",
     "prepare": "husky install",
     "test:coverage": "pnpm run test --coverage",
-    "test": "jest"
+    "test": "jest",
+    "version": "echo \"hello world\""
   },
   "lifecycle": {
     "version": "echo \"hello from root\" >> ./packages/clients/output.txt"
